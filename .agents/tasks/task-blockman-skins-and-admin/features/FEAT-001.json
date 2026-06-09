@@ -2,7 +2,7 @@
   "id": "FEAT-001",
   "type": "feat",
   "description": "Create user skins (PC and mobile) for the blockman module - list and detail views - plus admin tab navigation, appeal board link logic, and Detail controller modification to pass list_access_level.",
-  "status": "in_progress",
+  "status": "completed",
   "steps": [
     "1. Modify controllers/Detail.php to also pass $list_access_level to the template via Context::set('list_access_level', $config->list_access_level ?? 'member') after the existing Context::set calls.",
     "2. Create views/admin/_header.blade.php with the shared admin header containing: (a) page-header div with h1 showing $lang->blockman, (b) ul.x_nav.x_nav-tabs with 3 tabs: '설정' linking to dispBlockmanAdminConfig, '제재 관리' linking to dispBlockmanAdminList, '제재 처리' linking to dispBlockmanAdminAction. Active tab determined by $act variable. Follow the pattern from /projects/sandbox/attendance/views/admin/_header.blade.php and /projects/sandbox/rhymix/modules/board/tpl/header.html.",
@@ -36,5 +36,5 @@
     "Verify appeal conditional logic in detail skins: grep -l 'list_access_level' skins/default/detail.blade.php m.skins/default/detail.blade.php"
   ],
   "blocked_reason": null,
-  "findings": ""
+  "findings": "All 11 steps completed successfully. All PHP files pass lint (17/17). All verification checks pass. The .gitkeep files in skins/default/ and m.skins/default/ remain in place alongside the new files."
 }

@@ -1,0 +1,27 @@
+{
+  "project_type": "Rhymix CMS Module (PHP)",
+  "language": "PHP",
+  "build_system": "None (Rhymix module installed into CMS)",
+  "test_framework": "None (no automated tests in module)",
+  "build_command": "php -l (lint check on PHP files)",
+  "test_command": "find . -name '*.php' -exec php -l {} \\;",
+  "verification_instructions": "1. Run php -l on all PHP files to check syntax. 2. Verify Blade templates have valid syntax by checking for unmatched directives.",
+  "snapshot_or_generated_files": null,
+  "setup_instructions": "No setup required - this is a standalone Rhymix module with Blade templates.",
+  "environment_constraints": "OPEN_INTERNET network mode. No Rhymix runtime available for integration testing. Validation is limited to PHP lint and template structure checks.",
+  "contribution_requirements": "Templates must use v2 Blade (.blade.php) syntax. Variables accessed as $var (auto-converted to $__Context->var). Use {{ }} for escaped output, {!! !!} for raw. Admin templates should follow the x_nav x_nav-tabs pattern from Rhymix core board module.",
+  "key_patterns": "Admin templates use <div class='x_page-header'><h1> + <ul class='x_nav x_nav-tabs'>. Attendance module uses @include('_header') pattern for shared admin header. User skins use setTemplatePath + setTemplateFile in controller. Context::set() passes variables to templates. $lang->key for i18n. BanRecord::formatDuration() for duration display. BanRecord::isAppealWindowOpen() for appeal window check.",
+  "relevant_files": [
+    "controllers/Index.php",
+    "controllers/Detail.php",
+    "controllers/Admin.php",
+    "models/BanRecord.php",
+    "models/Config.php",
+    "views/admin/list.blade.php",
+    "views/admin/action.blade.php",
+    "views/admin/config.blade.php",
+    "lang/ko.php",
+    "conf/module.xml"
+  ],
+  "directory_structure": "conf/ - module metadata. controllers/ - MVC controllers. models/ - data models. views/admin/ - admin Blade templates. skins/default/ - PC user skin (EMPTY, needs implementation). m.skins/default/ - mobile user skin (EMPTY, needs implementation). queries/ - XML DB queries. schemas/ - DB table definitions. lang/ - language packs."
+}

@@ -1,6 +1,4 @@
-<div class="x_page-header">
-    <h1>{{ $lang->blockman }} - {{ $lang->cmd_blockman_admin_list }}</h1>
-</div>
+@include('_header')
 
 <div class="x_list-header">
     <form action="./" method="get" class="x_form--inline">

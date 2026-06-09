@@ -1,0 +1,7 @@
+{
+  "task_id": "task-blockman-skins-and-admin",
+  "task_description": "Implement user skins (PC and mobile) for list/detail views, fix admin templates to add tab navigation, and implement appeal board link logic with permission visibility check in the blockman module.",
+  "status": "in_progress",
+  "feature_order": ["FEAT-001"],
+  "blocked_reason": null
+}

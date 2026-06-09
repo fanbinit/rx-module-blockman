@@ -1,6 +1,4 @@
-<div class="x_page-header">
-    <h1>{{ $lang->blockman }} - {{ $lang->cmd_blockman_admin_config }}</h1>
-</div>
+@include('_header')
 
 <form action="./" method="post" class="x_form">
     <input type="hidden" name="module" value="admin" />

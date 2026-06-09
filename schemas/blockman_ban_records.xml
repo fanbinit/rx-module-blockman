@@ -1,0 +1,20 @@
+<table name="blockman_ban_records">
+	<column name="ban_record_srl" type="number" size="11" notnull="notnull" primary_key="primary_key" />
+	<column name="member_srl" type="number" size="11" notnull="notnull" />
+	<column name="admin_member_srl" type="number" size="11" notnull="notnull" />
+	<column name="ban_type" type="varchar" size="20" notnull="notnull" />
+	<column name="start_date" type="date" notnull="notnull" />
+	<column name="end_date" type="date" />
+	<column name="reason_tags" type="varchar" size="250" notnull="notnull" />
+	<column name="reason_detail" type="text" notnull="notnull" />
+	<column name="document_srl" type="number" size="11" />
+	<column name="comment_srl" type="number" size="11" />
+	<column name="declare_message" type="text" />
+	<column name="status" type="varchar" size="20" notnull="notnull" default="active" />
+	<column name="released_date" type="date" />
+	<column name="released_reason" type="text" />
+	<column name="regdate" type="date" notnull="notnull" />
+	<index name="idx_member_srl" columns="member_srl" />
+	<index name="idx_status_enddate" columns="status,end_date" />
+	<index name="idx_start_date" columns="start_date" />
+</table>

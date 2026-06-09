@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query id="getBanRecordsByMember" action="select">
+    <tables>
+        <table name="blockman_ban_records" alias="b" />
+    </tables>
+    <columns>
+        <column name="b.*" />
+    </columns>
+    <conditions>
+        <condition operation="equal" column="b.member_srl" var="member_srl" notnull="notnull" />
+    </conditions>
+    <navigation>
+        <index default="b.start_date" order="order_type" orderdefault="desc" />
+        <list_count var="list_count" default="50" />
+        <page_count var="page_count" default="1" />
+        <page var="page" default="1" />
+    </navigation>
+</query>

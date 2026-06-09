@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query id="getBanRecord" action="select">
+    <tables>
+        <table name="blockman_ban_records" alias="b" />
+        <table name="member" alias="m" type="left join">
+            <conditions>
+                <condition operation="equal" column="m.member_srl" var="b.member_srl" />
+            </conditions>
+        </table>
+    </tables>
+    <columns>
+        <column name="b.*" />
+        <column name="m.nick_name" />
+        <column name="m.user_id" />
+    </columns>
+    <conditions>
+        <condition operation="equal" column="b.ban_record_srl" var="ban_record_srl" notnull="notnull" />
+    </conditions>
+</query>

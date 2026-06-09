@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query id="updateBanRecordStatus" action="update">
+    <tables>
+        <table name="blockman_ban_records" />
+    </tables>
+    <columns>
+        <column name="status" var="status" notnull="notnull" />
+        <column name="released_date" var="released_date" />
+        <column name="released_reason" var="released_reason" />
+    </columns>
+    <conditions>
+        <condition operation="equal" column="ban_record_srl" var="ban_record_srl" notnull="notnull" />
+    </conditions>
+</query>

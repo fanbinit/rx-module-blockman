@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query id="getBanRecordList" action="select">
+    <tables>
+        <table name="blockman_ban_records" alias="b" />
+        <table name="member" alias="m" type="left join">
+            <conditions>
+                <condition operation="equal" column="m.member_srl" var="b.member_srl" />
+            </conditions>
+        </table>
+    </tables>
+    <columns>
+        <column name="b.*" />
+        <column name="m.nick_name" />
+        <column name="m.user_id" />
+    </columns>
+    <conditions>
+        <condition operation="equal" column="m.user_id" var="search_user_id" />
+        <condition operation="equal" column="b.status" var="search_status" />
+    </conditions>
+    <navigation>
+        <index var="sort_index" default="b.start_date" order="order_type" orderdefault="desc" />
+        <list_count var="list_count" default="20" />
+        <page_count var="page_count" default="10" />
+        <page var="page" default="1" />
+    </navigation>
+</query>

@@ -19,7 +19,7 @@
                 <th>{{ $lang->blockman_start_date }}</th>
                 <th>{{ $lang->blockman_duration }}</th>
                 <th>{{ $lang->blockman_reason }}</th>
-                <th>상태</th>
+                <th>{{ $lang->blockman_status }}</th>
             </tr>
         </thead>
         <tbody>
@@ -27,7 +27,7 @@
             <tr>
                 <td><a href="{{ getUrl('', 'mid', $mid, 'act', 'dispBlockmanDetail', 'ban_record_srl', $record->ban_record_srl) }}">{{ $record->nick_name ?? '-' }}</a></td>
                 <td>{{ $record->user_id ?? '-' }}</td>
-                <td>{{ substr($record->start_date, 0, 4) }}-{{ substr($record->start_date, 4, 2) }}-{{ substr($record->start_date, 6, 2) }}</td>
+                <td>{{ $record->start_date ? substr($record->start_date, 0, 4) . '-' . substr($record->start_date, 4, 2) . '-' . substr($record->start_date, 6, 2) : '-' }}</td>
                 <td>{{ \Rhymix\Modules\Blockman\Models\BanRecord::formatDuration($record) }}</td>
                 <td>{{ $record->reason_tags }}</td>
                 <td>

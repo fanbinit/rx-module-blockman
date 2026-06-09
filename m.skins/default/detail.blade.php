@@ -17,7 +17,7 @@
             <dt>{{ $lang->blockman_ban_period }}</dt>
             <dd>{{ $start_date_formatted }} ~ {{ $end_date_formatted ?: $lang->blockman_permanent }}</dd>
 
-            <dt>상태</dt>
+            <dt>{{ $lang->blockman_status }}</dt>
             <dd>
                 @if($ban_record->status === 'active')
                     <span class="blockman_badge blockman_badge--active">{{ $lang->blockman_status_active }}</span>
@@ -48,7 +48,7 @@
         <h3>{{ $lang->blockman_appeal_info }}</h3>
         <p>{{ $lang->blockman_appeal_guide }}</p>
         @if($appeal_window_open)
-            <a href="/{{ $appeal_board_mid }}" class="blockman_btn">{{ $lang->blockman_appeal_info }}</a>
+            <a href="{{ getUrl('', 'mid', $appeal_board_mid) }}" class="blockman_btn">{{ $lang->blockman_appeal_info }}</a>
         @else
             <p class="blockman_notice">{{ $lang->blockman_appeal_not_available }}</p>
         @endif
@@ -63,7 +63,7 @@
             @foreach($member_history as $history)
             <li class="blockman_history_item">
                 <div class="blockman_history_header">
-                    <span>{{ substr($history->start_date, 0, 4) }}-{{ substr($history->start_date, 4, 2) }}-{{ substr($history->start_date, 6, 2) }}</span>
+                    <span>{{ $history->start_date ? substr($history->start_date, 0, 4) . '-' . substr($history->start_date, 4, 2) . '-' . substr($history->start_date, 6, 2) : '-' }}</span>
                     @if($history->status === 'active')
                         <span class="blockman_badge blockman_badge--active">{{ $lang->blockman_status_active }}</span>
                     @elseif($history->status === 'released')

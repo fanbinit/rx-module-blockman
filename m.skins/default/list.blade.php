@@ -27,7 +27,7 @@
                 </div>
                 <div class="blockman_card_body">
                     <span>{{ $record->user_id ?? '-' }}</span>
-                    <span>{{ substr($record->start_date, 0, 4) }}-{{ substr($record->start_date, 4, 2) }}-{{ substr($record->start_date, 6, 2) }}</span>
+                    <span>{{ $record->start_date ? substr($record->start_date, 0, 4) . '-' . substr($record->start_date, 4, 2) . '-' . substr($record->start_date, 6, 2) : '-' }}</span>
                     <span>{{ \Rhymix\Modules\Blockman\Models\BanRecord::formatDuration($record) }}</span>
                 </div>
                 <div class="blockman_card_footer">

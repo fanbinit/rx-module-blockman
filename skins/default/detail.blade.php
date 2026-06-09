@@ -23,7 +23,7 @@
                     <td>{{ $start_date_formatted }} ~ {{ $end_date_formatted ?: $lang->blockman_permanent }}</td>
                 </tr>
                 <tr>
-                    <th>상태</th>
+                    <th>{{ $lang->blockman_status }}</th>
                     <td>
                         @if($ban_record->status === 'active')
                             <span class="blockman_badge blockman_badge--active">{{ $lang->blockman_status_active }}</span>
@@ -61,7 +61,7 @@
         <h3>{{ $lang->blockman_appeal_info }}</h3>
         <p>{{ $lang->blockman_appeal_guide }}</p>
         @if($appeal_window_open)
-            <a href="/{{ $appeal_board_mid }}" class="blockman_btn">{{ $lang->blockman_appeal_info }}</a>
+            <a href="{{ getUrl('', 'mid', $appeal_board_mid) }}" class="blockman_btn">{{ $lang->blockman_appeal_info }}</a>
         @else
             <p class="blockman_notice">{{ $lang->blockman_appeal_not_available }}</p>
         @endif
@@ -78,13 +78,13 @@
                     <th>{{ $lang->blockman_start_date }}</th>
                     <th>{{ $lang->blockman_duration }}</th>
                     <th>{{ $lang->blockman_reason }}</th>
-                    <th>상태</th>
+                    <th>{{ $lang->blockman_status }}</th>
                 </tr>
             </thead>
             <tbody>
                 @foreach($member_history as $history)
                 <tr>
-                    <td>{{ substr($history->start_date, 0, 4) }}-{{ substr($history->start_date, 4, 2) }}-{{ substr($history->start_date, 6, 2) }}</td>
+                    <td>{{ $history->start_date ? substr($history->start_date, 0, 4) . '-' . substr($history->start_date, 4, 2) . '-' . substr($history->start_date, 6, 2) : '-' }}</td>
                     <td>{{ \Rhymix\Modules\Blockman\Models\BanRecord::formatDuration($history) }}</td>
                     <td>{{ $history->reason_tags ?? '-' }}</td>
                     <td>

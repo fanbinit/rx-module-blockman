@@ -14,6 +14,7 @@ $lang->blockman_ban_type_temporary = '기간차단';
 $lang->blockman_ban_type_permanent = '영구차단';
 
 // 상태
+$lang->blockman_status = '상태';
 $lang->blockman_status_active = '유지중';
 $lang->blockman_status_released = '해제됨';
 $lang->blockman_status_expired = '만료됨';

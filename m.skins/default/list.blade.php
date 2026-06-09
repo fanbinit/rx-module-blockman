@@ -4,7 +4,7 @@
     <div class="blockman_search">
         <form action="./" method="get" class="blockman_search_form">
             <input type="hidden" name="mid" value="{{ $mid }}" />
-            <input type="hidden" name="act" value="dispBlockmanIndex" />
+            <input type="hidden" name="act" value="dispBlockmanList" />
             <input type="text" name="search_user_id" value="{{ $search_user_id ?? '' }}" placeholder="{{ $lang->blockman_search_placeholder }}" class="blockman_input" />
             <button type="submit" class="blockman_btn">{{ $lang->blockman_search }}</button>
         </form>

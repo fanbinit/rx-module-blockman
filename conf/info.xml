@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.2">
+	<title xml:lang="ko">차단 관리</title>
+	<description xml:lang="ko"></description>
+	<version>1.0.0</version>
+	<date>2026-06-09</date>
+	<category>service</category>
+	<author email_address="webmaster@fanbinit.us" link="https://fanbinit.us">
+		<name xml:lang="ko">팬비닛</name>
+	</author>
+</module>

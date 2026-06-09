@@ -104,6 +104,6 @@
     @endif
 
     <div class="blockman_actions">
-        <a href="{{ getUrl('', 'mid', $mid, 'act', 'dispBlockmanIndex') }}" class="blockman_btn">{{ $lang->blockman_back_to_list }}</a>
+        <a href="{{ getUrl('', 'mid', $mid, 'act', 'dispBlockmanList') }}" class="blockman_btn">{{ $lang->blockman_back_to_list }}</a>
     </div>
 </div>

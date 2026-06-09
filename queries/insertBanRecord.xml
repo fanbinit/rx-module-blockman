@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query id="insertBanRecord" action="insert">
+    <tables>
+        <table name="blockman_ban_records" />
+    </tables>
+    <columns>
+        <column name="ban_record_srl" var="ban_record_srl" notnull="notnull" />
+        <column name="member_srl" var="member_srl" notnull="notnull" />
+        <column name="admin_member_srl" var="admin_member_srl" notnull="notnull" />
+        <column name="ban_type" var="ban_type" notnull="notnull" />
+        <column name="start_date" var="start_date" notnull="notnull" />
+        <column name="end_date" var="end_date" />
+        <column name="reason_tags" var="reason_tags" notnull="notnull" />
+        <column name="reason_detail" var="reason_detail" notnull="notnull" />
+        <column name="document_srl" var="document_srl" />
+        <column name="comment_srl" var="comment_srl" />
+        <column name="declare_message" var="declare_message" />
+        <column name="status" var="status" default="active" />
+        <column name="released_date" var="released_date" />
+        <column name="released_reason" var="released_reason" />
+        <column name="regdate" var="regdate" default="curdate()" />
+    </columns>
+</query>

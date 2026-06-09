@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module version="0.2">
-	<title xml:lang="ko">차단 관리</title>
-	<description xml:lang="ko"></description>
-	<version>1.0.0</version>
-	<date>2026-06-09</date>
+	<title xml:lang="ko">이용제한 기록</title>
+	<title xml:lang="en">Blockman</title>
+	<description xml:lang="ko">회원 제재 관리 및 이용제한 기록 공개 모듈</description>
+	<description xml:lang="en">Member ban management and public restriction record module</description>
+	<version>0.1.0</version>
+	<date>2024-01-01</date>
 	<category>service</category>
-	<author email_address="webmaster@fanbinit.us" link="https://fanbinit.us">
+	<author>
 		<name xml:lang="ko">팬비닛</name>
+		<name xml:lang="en">팬비닛</name>
 	</author>
 </module>

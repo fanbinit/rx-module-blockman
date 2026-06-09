@@ -1,0 +1,467 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 기존 샘플 코드 삭제 및 디렉토리 구조 생성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256396
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973263509
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973330347
+      }
+    ],
+    "1.2 conf/info.xml 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256400
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973334381
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973427714
+      }
+    ],
+    "1.3 conf/module.xml 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256402
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973335122
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973428423
+      }
+    ],
+    "1.4 lang/ko.php 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256404
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973335873
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973429215
+      }
+    ],
+    "2.1 schemas/blockman_ban_records.xml 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256406
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973433317
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973577913
+      }
+    ],
+    "2.2 queries/insertBanRecord.xml 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256409
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973434089
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973578649
+      }
+    ],
+    "2.3 queries/getBanRecordList.xml 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256413
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973434803
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973579386
+      }
+    ],
+    "2.4 queries/getBanRecord.xml 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256416
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973435524
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973580224
+      }
+    ],
+    "2.5 queries/getBanRecordsByMember.xml 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256418
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973436366
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973580908
+      }
+    ],
+    "2.6 queries/getActiveBan.xml 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256420
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973440110
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973584199
+      }
+    ],
+    "2.7 queries/updateBanRecordStatus.xml 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256423
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973440992
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973585056
+      }
+    ],
+    "3. 체크포인트 - 스키마 및 쿼리 XML 검증": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256426
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973589723
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973706595
+      }
+    ],
+    "4.1 controllers/Base.php 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256428
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973713033
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973860737
+      }
+    ],
+    "4.2 models/Config.php 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256431
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973714618
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973861459
+      }
+    ],
+    "4.3 models/BanRecord.php 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256433
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973714711
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973862218
+      }
+    ],
+    "4.4 controllers/Install.php 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256436
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973866628
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974013119
+      }
+    ],
+    "5.1 controllers/Admin.php 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256439
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973867394
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974014607
+      }
+    ],
+    "5.2 관리자 템플릿 작성 (views/admin/)": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256441
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974019488
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974186635
+      }
+    ],
+    "6. 체크포인트 - 관리자 기능 검증": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256443
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974308850
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974569524
+      }
+    ],
+    "7.1 controllers/EventHandlers.php 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256446
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973868183
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974014770
+      }
+    ],
+    "8.1 controllers/Index.php 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256451
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974020354
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974187475
+      }
+    ],
+    "8.2 controllers/Detail.php 작성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256454
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974021154
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974188247
+      }
+    ],
+    "8.3 PC 스킨 템플릿 작성 (skins/default/)": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256456
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974193369
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974303269
+      }
+    ],
+    "8.4 모바일 스킨 템플릿 작성 (m.skins/default/)": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256459
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974194284
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974304322
+      }
+    ],
+    "9. 최종 체크포인트 - 전체 문법 검증": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973256462
+      },
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974570509
+      }
+    ],
+    "1. 프로젝트 구조 및 모듈 설정 파일 생성": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973429218
+      }
+    ],
+    "2. 데이터베이스 스키마 및 쿼리 정의": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780973585059
+      }
+    ],
+    "4. 모델 및 컨트롤러 기본 구조 구현": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974013122
+      }
+    ],
+    "7. 트리거 핸들러 구현": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974014773
+      }
+    ],
+    "5. 관리자 기능 구현": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974186638
+      }
+    ],
+    "8. 사용자 화면 구현": [
+      {
+        "executionId": "8f7b92cc-e6c1-403f-81f3-298cec965fc6",
+        "chatSessionId": "3a70efc1-8267-4010-9c3f-bd231db3b201",
+        "timestamp": 1780974304325
+      }
+    ]
+  }
+}

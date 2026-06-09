@@ -1,6 +1,4 @@
-<div class="x_page-header">
-    <h1>{{ $lang->blockman }} - {{ $lang->cmd_blockman_admin_action }}</h1>
-</div>
+@include('_header')
 
 @if(!empty($target_member))
 <div class="x_panel">

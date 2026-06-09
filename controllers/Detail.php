@@ -92,6 +92,7 @@ class Detail extends Base
 		Context::set('start_date_formatted', $start_date_formatted);
 		Context::set('end_date_formatted', $end_date_formatted);
 		Context::set('appeal_board_mid', $appeal_board_mid);
+		Context::set('list_access_level', $config->list_access_level ?? 'member');
 
 		$this->setTemplateFile('detail');
 	}
